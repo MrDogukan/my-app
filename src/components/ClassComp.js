@@ -6,6 +6,7 @@ export default class ClassComp extends React.Component {
       <div>
         <h1>Welcome to ReactJS from CC</h1>
         <p>Age: {this.props.old}</p>
+        <p>Age: {this.props.car}</p>
       </div>
     );
   }

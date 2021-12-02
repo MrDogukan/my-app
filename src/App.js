@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Age: {age}</h1>
-        <ClassComponent old={age} />
-        <FuncComp old={age} />
+        <ClassComponent old={age} car="BMW" />
+        <FuncComp old={age + age} color="yellow" />
       </header>
     </div>
   );
